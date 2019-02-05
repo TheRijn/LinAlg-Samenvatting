@@ -1,6 +1,6 @@
 ## Hoorcollege 1a (1.1, 1.2)
 ### 1.1
-Theorem 1.1 <- Algebra $\mathbb{R}^n$
+Theorem 1.1 <- Algebra 	&#8477;<sup>n</sup>
 ![](1.1/rules.png)
 
 ### 1.2
