@@ -28,12 +28,27 @@ Pythagoras:
 
 ## Hoorcollege 1b (1.3, cross product)
 
-TABELLETJE van GEO COMP en ALG
+### 1.3
+
+<!--TABELLETJE van GEO COMP en ALG
 
 | GEO | COMP | ALG |
 | --- | --- | --- |
-| bla | bla | bla |
-![](1.3/table12.png)
-n.x = delta
+| bla | bla | bla |-->
 
-Normaal-vector is de vector loodrecht 
+![](1.3/table12.png)
+n&sdot;x = &delta;
+
+Normaal-vector is de vector loodrecht op de lijn/vlak
+
+![](1.3/table13.png)
+n&sdot;x = &delta;
+
+In 3d:<br>
+n&sdot;x = &delta; geeft of een punt boven of onder een vlak ligt
+
+|||
+|---|---|
+|\> 0 | boven het vlak|
+|= 0 | op het vlak|
+|< 0 | onder het vlak|
