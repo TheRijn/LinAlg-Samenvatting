@@ -3,9 +3,6 @@
 ## Hoorcollege 1a (1.1, 1.2)
 
 - [3blue1brown: Essence of linear algebra on Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-<!-- - [1.1](#11)
-- [1.2](#12)
-- [1.3](#13) -->
 
 {:toc}
 
