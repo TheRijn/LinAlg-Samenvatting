@@ -39,7 +39,9 @@
         {% endif %}
       </header>
       <section>
+      {% if page.toc %}
         {% include toc.html html=content %}
+      {% endif %}
       {{ content }}
 
       </section>

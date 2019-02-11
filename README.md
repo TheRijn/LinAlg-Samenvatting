@@ -1,3 +1,6 @@
+---
+toc: true
+---
 # LinAlg
 
 ## Hoorcollege 1a (1.1, 1.2)
@@ -61,6 +64,9 @@ n&sdot;x = &delta; geeft of een punt boven of onder een vlak ligt
 
 ## Hoorcollege 2a
 > RREF: Reduced Row-Echelon Form
+
+span: de ruimte van vectoren die je kan maken van een set vectoren
+
 ### 2.1
 
 ### 2.2
