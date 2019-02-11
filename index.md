@@ -1,6 +1,3 @@
----
-toc: true
----
 # LinAlg
 
 ## Hoorcollege 1a (1.1, 1.2)
