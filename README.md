@@ -4,7 +4,7 @@
 
 - [3blue1brown: Essence of linear algebra on Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
-{:toc}
+{% include toc.html html=content %}
 
 ### 1.1
 
