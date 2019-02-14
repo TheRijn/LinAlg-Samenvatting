@@ -6,12 +6,12 @@
 
 {% include toc.html html=content %}
 
-### 1.1
+### 1.1 The Geometry and Algebra of Vectors
 
 Theorem 1.1 <- Algebra 	&#8477;<sup>n</sup>
 ![](1.1/rules.png)
 
-### 1.2
+### 1.2 Length and Angle: The Dot Product
 
 Dot product:
 ![](1.2/dot.png)
@@ -21,7 +21,7 @@ Distance:
 ![](1.2/distance.png)
 Angle between vectors:
 ![](1.2/angle.png)
-Orthigonal (hoek 90 graden):
+Orthogonaal (hoek 90 graden):
 ![](1.2/orthogonal.png)
 Pythagoras:
 ![](1.2/pythagoras.png)
@@ -30,7 +30,7 @@ Pythagoras:
 
 ## Hoorcollege 1b (1.3, cross product)
 
-### 1.3
+### 1.3 Lines and Planes
 
 <!--TABELLETJE van GEO COMP en ALG
 
@@ -60,18 +60,42 @@ n&sdot;x = &delta; geeft of een punt boven of onder een vlak ligt
 |< 0 | onder het vlak|
 
 ## Hoorcollege 2a
+
 > RREF: Reduced Row-Echelon Form
 
 span: de ruimte van vectoren die je kan maken van een set vectoren
 
-### 2.1
+### 2.1 Introduction to Systems of Linear Equations
 
-### 2.2
+![](2.1/lin_eq.png)
 
-### 2.3
+### 2.2 Direct Methods for Solving Linear Systems
+
+![](2.2/REF.png)
+![](2.2/ref_operation.png)
+![](2.2/rref.png)
+![](2.2/rank.png)
+![](2.2/free_vars.png)
+
+### 2.3 Spanning Sets and Linear Independence
+
+Span:
+![](2.3/span.png)
+![](2.3/lin_in_dependent.png)
 
 ## Hoorcollege 2b
 
-### 3.1
+### 3.1 Matrix Operations
 
-### 3.6
+![](3.1/matrix_product.png)
+![](3.1/matrix_transpose.png)
+![](3.1/matrix_symmetric.png)
+
+### 3.6 Introduction to Linear Transformations
+
+![](3.6/linear_trans.png)
+![](3.6/inverse_trans.png)
+
+#### Types of (linear)transformations
+
+
