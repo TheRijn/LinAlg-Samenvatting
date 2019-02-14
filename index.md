@@ -4,8 +4,6 @@
 
 - [3blue1brown: Essence of linear algebra on Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
-{% include toc.html html=content %}
-
 ### 1.1 The Geometry and Algebra of Vectors
 
 Theorem 1.1 <- Algebra 	&#8477;<sup>n</sup>
