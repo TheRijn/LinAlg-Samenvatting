@@ -96,4 +96,35 @@ Span:
 
 #### Types of (linear)transformations
 
+Rotation $\theta$:
+$$\begin{bmatrix} 
+\cos{\theta} & -\sin{\theta} \\\ 
+\sin{\theta} & \cos{\theta} 
+\end{bmatrix}$$
 
+## Hoorcollege 3a
+### 3.2
+
+### 3.3
+### 3.4
+
+## Hoorcollge 3b
+### 3.5
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { fonts: ["TeX"] }
+  });
+</script>
+<script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=?config=TeX-AMS-MML_HTMLorMML' type="text/javascript"></script>
