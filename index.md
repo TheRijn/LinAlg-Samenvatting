@@ -175,7 +175,7 @@ $rank(A) + nullity(A) = n$
 
 ## Acknowledgements
 
-Pictures © David Poole, Linear Algebra - A Modern Introduction (*Fourth edition*)
+Pictures © David Poole, Linear Algebra - A Modern Introduction (*Fourth edition*), you can buy this book [here](https://www.amazon.de/dp/1285463242/ref=cm_sw_em_r_mt_dp_U_6AQBCbGH013Y1).
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
