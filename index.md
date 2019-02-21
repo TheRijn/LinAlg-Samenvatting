@@ -30,12 +30,6 @@ Pythagoras:
 
 ### 1.3 Lines and Planes
 
-<!--TABELLETJE van GEO COMP en ALG
-
-| GEO | COMP | ALG |
-| --- | --- | --- |
-| bla | bla | bla |-->
-
 ![](1.3/table12.png)
 $ \vec{n} \cdot \vec{x} = \delta $
 
@@ -123,6 +117,7 @@ $\frac{d \cdot d^T}{d^T \cdot d} \cdot v$
 ### 3.5: Subspace, Basis, Dimension and Rank
 
 #### Linear Subspaces (Deelruimte)
+
 ![](3.5/subspace.png)
 
 In 2D:
@@ -141,6 +136,7 @@ col space, de ruimte van mogelijke uitkomsten
 Alle vectoren die op $\vec{o}$ terechtkomen
 
 ##### Subspace of Transformation
+
 Bij rotatie veranderd de subspace niet
 
 
