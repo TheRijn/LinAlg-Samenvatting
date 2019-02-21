@@ -1,12 +1,12 @@
 # LinAlg
 
-## Hoorcollege 1a (1.1, 1.2)
+## Hoorcollege 1a
 
 - [3blue1brown: Essence of linear algebra on Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 ### 1.1 The Geometry and Algebra of Vectors
 
-Theorem 1.1 <- Algebra 	&#8477;<sup>n</sup>
+Theorem 1.1 <- Algebra $\mathbb{R}^n$
 ![](1.1/rules.png)
 
 ### 1.2 Length and Angle: The Dot Product
@@ -26,7 +26,7 @@ Pythagoras:
 (Orthogonal) Projection:
 ![](1.2/projectie.png)
 
-## Hoorcollege 1b (1.3, cross product)
+## Hoorcollege 1b
 
 ### 1.3 Lines and Planes
 
@@ -37,25 +37,25 @@ Pythagoras:
 | bla | bla | bla |-->
 
 ![](1.3/table12.png)
-n&sdot;x = &delta;
+$ \vec{n} \cdot \vec{x} = \delta $
 
 Normaal-vector is de vector loodrecht op de lijn/vlak
 
 ![](1.3/table13.png)
-n&sdot;x = &delta;
+$ \vec{n} \cdot \vec{x} = \delta $
 
 #### Distance between plane and point
 
 
 
 In 3d:<br>
-n&sdot;x = &delta; geeft of een punt boven of onder een vlak ligt
+$ \vec{n} \cdot \vec{x} = \delta $ geeft of een punt boven of onder een vlak ligt
 
 |||
 |---|---|
-|\> 0 | boven het vlak|
-|= 0 | op het vlak|
-|< 0 | onder het vlak|
+|$\> 0$ | boven het vlak|
+|$= 0$ | op het vlak|
+|$< 0$ | onder het vlak|
 
 ## Hoorcollege 2a
 
@@ -78,8 +78,10 @@ span: de ruimte van vectoren die je kan maken van een set vectoren
 ### 2.3 Spanning Sets and Linear Independence
 
 Span:
+De set van vectoren die je kan maken door een aantal andere vectoren te combineren
 ![](2.3/span.png)
 ![](2.3/lin_in_dependent.png)
+Een vector is lineair afhankelijk als deze uitgedrukt kan worden met 
 
 ## Hoorcollege 2b
 
@@ -97,23 +99,59 @@ Span:
 #### Types of (linear)transformations
 
 Rotation $\theta$:
-$$\begin{bmatrix} 
+$\begin{bmatrix} 
 \cos{\theta} & -\sin{\theta} \\\ 
 \sin{\theta} & \cos{\theta} 
-\end{bmatrix}$$
+\end{bmatrix}$
 
 ## Hoorcollege 3a
-### 3.2
 
-### 3.3
-### 3.4
+### 3.2 Matrix Algebra
+
+![](3.2/matrix_alg.png)
+![](3.2/matrix_alg2.png)
+![](3.2/transpose_prop.png)
+![](3.2/symmetric_matrix.png)
+
+$\frac{d \cdot d^T}{d^T \cdot d} \cdot v$
+
+
+### 3.3 The Invere of a Matrix
 
 ## Hoorcollge 3b
-### 3.5
+
+### 3.5: Subspace, Basis, Dimension and Rank
+
+#### Linear Subspaces (Deelruimte)
+![](3.5/subspace.png)
+
+In 2D:
+
+0-D a) $\vec{o}$ punt in de oorsprong <br/>
+1-D b) Een lijn door $\vec{o}$ <br/>
+2-D c) Hele vlak
+
+![](3.5/subspace_def.png)
+
+![](3.5/row_col_space.png)
+$(row(A))^T = col(A^T)$ <br/>
+col space, de ruimte van mogelijke uitkomsten
+
+![](3.5/nullspace.png)
+Alle vectoren die op $\vec{o}$ terechtkomen
+
+##### Subspace of Transformation
+Bij rotatie veranderd de subspace niet
 
 
 
+#### Basis
 
+Minimaal aantal vectoren die je nodig hebt om een subspace op te spannen.
+
+#### Dimension
+
+#### Rank
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -127,4 +165,4 @@ $$\begin{bmatrix}
     "HTML-CSS": { fonts: ["TeX"] }
   });
 </script>
-<script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=?config=TeX-AMS-MML_HTMLorMML' type="text/javascript"></script>
+<script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js' type="text/javascript"></script>
