@@ -1,5 +1,3 @@
-# LinAlg
-
 ## Hoorcollege 1a
 
 - [3blue1brown: Essence of linear algebra on Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
@@ -92,10 +90,15 @@ Een vector is lineair afhankelijk als deze uitgedrukt kan worden met
 
 #### Types of (linear)transformations
 
-Rotation $\theta$:
-$\begin{bmatrix} 
+Rotatie $\theta$ (tegen de klok in):
+
+$T = \begin{bmatrix} 
 \cos{\theta} & -\sin{\theta} \\\ 
 \sin{\theta} & \cos{\theta} 
+\end{bmatrix}$
+$T^{-1} = \begin{bmatrix} 
+\cos{\theta} & \sin{\theta} \\\ 
+\-sin{\theta} & \cos{\theta} 
 \end{bmatrix}$
 
 ## Hoorcollege 3a
@@ -110,9 +113,10 @@ $\begin{bmatrix}
 $\frac{d \cdot d^T}{d^T \cdot d} \cdot v$
 
 
-### 3.3 The Invere of a Matrix
+### 3.3 The Inverse of a Matrix
 
 ## Hoorcollge 3b
+
 
 ### 3.5: Subspace, Basis, Dimension and Rank
 
@@ -129,7 +133,7 @@ In 2D:
 ![](3.5/subspace_def.png)
 
 ![](3.5/row_col_space.png)
-$(row(A))^T = col(A^T)$ <br/>
+$row(A) = col(A^T)$ $(row(A))^T = col(A^T)$ <br/>
 col space, de ruimte van mogelijke uitkomsten
 
 ![](3.5/nullspace.png)
@@ -139,15 +143,36 @@ Alle vectoren die op $\vec{o}$ terechtkomen
 
 Bij rotatie veranderd de subspace niet
 
-
-
 #### Basis
 
-Minimaal aantal vectoren die je nodig hebt om een subspace op te spannen.
+![](3.5/basis.png)
+Minimaal aantal vectoren die je nodig hebt om een subspace op te spannen en maximaal onafhankelijk
 
 #### Dimension
 
+![](3.5/dimension.png)
+Het aantal vectoren in de Basis van een subspace
+
+#### Null space or Kernel (NL: nulruimte of kern)
+
+$null(A):$ deelruimte opgespannen door alle $\vec{x}$ waarvoor $A\vec{x}=0$
+
 #### Rank
+
+$rank(A):$ dimensie $col(A)$
+
+#### Nullity
+![](3.5/nullity.png)
+
+De dimension van de nulruimte
+$nullity(A):$ dimensie van $null(A)$
+
+$A =m \times n$, dan geldt: <br>
+$rank(A) + nullity(A) = n$
+
+## Acknowledgements
+
+Pictures © David Poole, Linear Algebra - A Modern Introduction (*Fourth edition*)
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
