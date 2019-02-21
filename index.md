@@ -1,3 +1,6 @@
+---
+title: Lineaire Algebra KI/INF Samenvatting
+---
 ## Hoorcollege 1a
 
 - [3blue1brown: Essence of linear algebra on Youtube](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
